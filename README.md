@@ -1,19 +1,20 @@
 <div align="center">
+<img width="554" height="554" alt="images" src="https://github.com/user-attachments/assets/3c80545f-d3ae-4b50-80a0-6c0fe9fb8182" />
 
-<img src="https://raw.githubusercontent.com/PookiePepelsss/MultiRoblox-RAM/main/MultiRoblox/src-tauri/icons/128x128.png" width="88" />
 
-# MultiRoblox
+# Multi-Roblox Instance
 
-**Run as many Roblox accounts as you want, all at once, on Windows.**
+**Run as many Roblox accounts as you want only limited by your computer, all at once, on Windows Only ! .**
 
-[![platform](https://img.shields.io/badge/platform-windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/PookiePepelsss/MultiRoblox-RAM/releases)
+[![platform](https://img.shields.io/badge/platform-windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/fr-fr/software-download/windows11) Compatible With Windows 10 & 11
 [![built with tauri](https://img.shields.io/badge/built%20with-tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)](https://tauri.app/)
 [![license](https://img.shields.io/badge/license-PolyForm%20-3DDC97?style=for-the-badge)](LICENSE)
-[![latest release](https://img.shields.io/github/v/tag/PookiePepelsss/MultiRoblox-RAM?style=for-the-badge&label=latest&color=FF6B6B)](https://github.com/PookiePepelsss/MultiRoblox-RAM/releases)
+[![latest release](https://img.shields.io/github/v/tag/PookiePepelsss/MultiRoblox-RAM?style=for-the-badge&label=latest&color=FF6B6B)](https://github.com/Salimmmmmm/Multi-Roblox-Instance)
 
 <br>
 
 <!-- add a screenshot or GIF of the app here -->
+<img width="554" height="554" alt="images" src="https://github.com/user-attachments/assets/f0f4e236-34d9-4477-a67e-249fc3e72f46" />
 
 </div>
 
@@ -21,7 +22,7 @@
 
 ## Quick start
 
-No installer needed. Grab the exe from [**Releases**](https://github.com/PookiePepelsss/MultiRoblox-RAM/releases) and run it.
+No installer needed. Grab the exe from [**Releases**](https://github.com/Salimmmmmm/Multi-Roblox-Instance) and run it.
 
 Or build it yourself:
 
@@ -66,7 +67,7 @@ build.bat
 - Search and launch any game straight from the charts page
 
 ### 🎲 Generator
-- Generate Roblox accounts via a [bloxgen.net](https://bloxgen.net/) API key
+- Generate Roblox accounts via a [bloxgen.net](https://bloxgen.net/) API key,If you don't know where to get clik the [Following link](https://docs.bloxgen.net/authentication)
 
 ### ⚙️ Settings
 - **General**: multi-instance status, anti-AFK, relaunch-on-disconnect
@@ -96,18 +97,15 @@ If the native helper isn't shipped with a build, it compiles from the bundled so
 ## Disclaimer
 
 Running multiple Roblox accounts isn't something Roblox actively bans for normal use, but using this software is at your own risk. The author is not responsible for any bans, suspensions, or other action taken against your account.
+As of December 2025 Roblox consider Multi Instance exploit but ain't banable (Approved by an Roblox Staff)
 
 ---
 
 ## Support
 
 If MultiRoblox saved you time, consider tossing a tip my way.
-
-| Coin | Address |
-|---|---|
-| BTC | `15kEbCxtNKbQ2g16AmiW8BeEKU3h6i9S46` |
-| ETH | `0x179ab005a9CD84769934aB66825D38C347D9AB4d` |
-| LTC | `LTLYLK9mUMVUk9Gk5j3W8oYqtq1cYiU3Uy` | 
+Please Give out an star to this Project !
+ 
 
 ---
 
@@ -116,6 +114,7 @@ If MultiRoblox saved you time, consider tossing a tip my way.
 Free to use, modify, and share. You may not sell it, and any copy or fork must credit **pookiepepelss** as the original author.
 
 See [LICENSE](LICENSE) for the full text.
+Credit to pookiepepelss 
 
 <div align="center">
 
