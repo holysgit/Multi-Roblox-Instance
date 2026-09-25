@@ -17,7 +17,7 @@
    Only the class is set here; renderer.js re-applies the same value later to
    mark the selected theme card. Deliberately dependency-free and wrapped in
    try/catch so a blocked localStorage can never stop the app from loading. */
-window.DEFAULT_THEME = 'dark';
+window.DEFAULT_THEME = 'light';
 (function () {
   var t;
   try {
@@ -80,7 +80,7 @@ window.DEFAULT_THEME = 'dark';
     <button class="btn btn-danger kill-roblox-btn" id="nav-kill" onclick="mixKillAll()">
       <span class="material-icons-round" style="font-size:15px">power_settings_new</span>Kill Roblox
     </button>
-    <div class="sb-afk" title="Keep instances past the 20-minute idle kick">
+    <div class="sb-afk" title="Keep instances past the 20-minute idle kick By Roblox">
       <span class="sb-afk-label"><span class="material-icons-round">bolt</span>Anti-AFK</span>
       <label class="toggle"><input type="checkbox" id="sb-antiafk" onchange="toggleAntiAfk('sb')"/><span class="toggle-trk"></span></label>
     </div>
@@ -134,7 +134,7 @@ window.DEFAULT_THEME = 'dark';
         <div class="ph" style="display:flex;align-items:center;justify-content:space-between;gap:10px">
           <div>
             <div class="ph-title">Groups</div>
-            <div class="ph-sub" id="pkg-sub">Group accounts and launch them together with one click</div>
+            <div class="ph-sub" id="pkg-sub">Group accounts and launch them together with one simple click</div>
           </div>
           <button class="btn btn-primary" style="font-size:11.5px;padding:7px 12px;flex-shrink:0" onclick="openCreatePackage()">
             <span class="material-icons-round" style="font-size:14px">add</span>New group
@@ -145,7 +145,7 @@ window.DEFAULT_THEME = 'dark';
           <div class="empty" id="pkg-empty" style="display:none">
             <span class="material-icons-round">inventory_2</span>
             <div class="empty-title">No groups yet</div>
-            <div class="empty-sub">Create a group to launch several accounts into the same game with one click.</div>
+            <div class="empty-sub">Create a group to launch multiple accounts into the same game with one click.</div>
             <button class="btn btn-primary" style="margin-top:8px;font-size:11.5px;padding:6px 14px" onclick="openCreatePackage()">Create group</button>
           </div>
         </div>
@@ -155,7 +155,7 @@ window.DEFAULT_THEME = 'dark';
         <div class="ph" style="display:flex;align-items:center;justify-content:space-between;gap:10px">
           <div>
             <div class="ph-title">Charts</div>
-            <div class="ph-sub">Trending &amp; top games on Roblox</div>
+            <div class="ph-sub">Trending &amp; top games on Boblox</div>
           </div>
           <button class="btn btn-ghost" style="font-size:11px;padding:7px 10px;flex-shrink:0" onclick="loadCharts()">
             <span class="material-icons-round" style="font-size:13px">refresh</span>Refresh
@@ -176,13 +176,13 @@ window.DEFAULT_THEME = 'dark';
         <div class="charts-scroll">
           <div id="charts-loading" class="charts-loading" style="margin-top:20px">
             <div class="spin" style="width:18px;height:18px;border-width:2.5px;color:var(--ac)"></div>
-            <span>Loading games…</span>
+            <span>Loading games…Please wait</span>
           </div>
           <div class="charts-grid" id="charts-grid" style="display:none"></div>
           <div class="empty" id="charts-empty" style="display:none">
             <span class="material-icons-round">wifi_off</span>
             <div class="empty-title">Couldn't load games</div>
-            <div class="empty-sub">Check your connection and press Refresh.</div>
+            <div class="empty-sub">Check your connection and press Refresh Or Reload The Apps.</div>
           </div>
         </div>
         </div>
@@ -192,7 +192,7 @@ window.DEFAULT_THEME = 'dark';
         <div class="ph" style="display:flex;align-items:center;justify-content:space-between;gap:10px">
           <div>
             <div class="ph-title">Mixer</div>
-            <div class="ph-sub">Graphics, FPS and volume for every instance</div>
+            <div class="ph-sub">Graphics, Frame Per Seconds and volume for every running Roblox instance</div>
           </div>
         </div>
         <div class="sw">
@@ -214,7 +214,7 @@ window.DEFAULT_THEME = 'dark';
           </div>
           <!-- FPS cap -->
           <div class="sc">
-            <div class="sc-head">FPS Cap</div>
+            <div class="sc-head">Frame Per Second Cap</div>
             <div class="sr" style="flex-direction:column;align-items:stretch;gap:10px">
               <div class="sr-left">
                 <div class="sr-label">Target framerate</div>
@@ -259,7 +259,7 @@ window.DEFAULT_THEME = 'dark';
       <div class="page" id="page-generator" style="overflow-y:auto">
         <div class="ph">
           <div class="ph-title">Generator</div>
-          <div class="ph-sub">Generate a Roblox alt via BloxGen or Altgen API</div>
+          <div class="ph-sub">Generate a Roblox alt via BloxGen API Key or Altgen API</div>
         </div>
         <div class="sw">
           <div class="sc">
@@ -378,9 +378,9 @@ window.DEFAULT_THEME = 'dark';
           <!-- Info row -->
           <div class="sc">
             <div class="sc-head">About</div>
-            <div class="sr"><div class="sr-left"><div class="sr-label">MultiRoblox</div><div class="sr-desc" id="stat-app-ver">Version -</div></div></div>
+            <div class="sr"><div class="sr-left"><div class="sr-label">Multi-Instance Roblox</div><div class="sr-desc" id="stat-app-ver">Version -</div></div></div>
             <div class="sr"><div class="sr-left"><div class="sr-label">Accounts saved</div></div><span class="badge" id="stat-count">0</span></div>
-            <div class="sr"><div class="sr-left"><div class="sr-label">Roblox version</div></div><span class="badge" id="stat-rblx-ver">-</span></div>
+            <div class="sr"><div class="sr-left"><div class="sr-label">Roblox Hash version</div></div><span class="badge" id="stat-rblx-ver">-</span></div>
           </div>
           <!-- Window behaviour -->
           <div class="sc">
